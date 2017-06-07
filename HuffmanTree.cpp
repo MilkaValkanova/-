@@ -94,7 +94,7 @@ void HuffmanTree::destroy(Node* element)
 	{
 		destroy(element->left);
 		destroy(element->right);
-		delete[] element;
+		delete element;
 	}
 }
 
